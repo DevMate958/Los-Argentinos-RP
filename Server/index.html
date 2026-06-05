@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servidor RP Oficial</title>
+  <meta name="description" content="Web oficial de servidor GTA RP Argentina. Noticias, TikTok, staff, reclutamiento y más." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="logo">
+        <div class="logo-mark">RP</div>
+        <div>
+          <h1>RP Oficial</h1>
+          <p>GTA RP Argentina - Premium</p>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#home">Inicio</a>
+        <a href="#tiktok">TikTok</a>
+        <a href="#anuncios">Anuncios</a>
+        <a href="#staff">Staff</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-discord" href="https://discord.gg/" target="_blank">Discord</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-glow">
+        <div class="hero-copy">
+          <span class="hero-badge">Servidor oficial RP</span>
+          <h2>Bienvenido al servidor de GTA RP Argentina</h2>
+          <p>Web premium con estadísticas en vivo, TikTok, anuncios, reclutamiento, liveries y soporte centralizado.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#anuncios">Ver anuncios</a>
+            <a class="btn btn-secondary" href="#staff">Conocer staff</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-card">
+            <h3>Estado del servidor</h3>
+            <div class="server-pill online">🟢 EN LÍNEA</div>
+            <div class="stat-grid">
+              <div>
+                <span id="count-connected">0</span>
+                <p>Conectados</p>
+              </div>
+              <div>
+                <span id="count-max">0</span>
+                <p>Máximo</p>
+              </div>
+              <div>
+                <span id="count-discord">0</span>
+                <p>Discord online</p>
+              </div>
+              <div>
+                <span id="count-last">0</span>
+                <p>Últimos ingresos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tiktok" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Redes Sociales</p>
+            <h2>TikTok oficial</h2>
+          </div>
+          <div id="live-badge" class="live-badge">🔴 EN VIVO AHORA</div>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Seguidores</h3>
+            <p id="tiktok-followers">0</p>
+          </article>
+          <article class="card">
+            <h3>Likes</h3>
+            <p id="tiktok-likes">0</p>
+          </article>
+          <article class="card">
+            <h3>Videos destacados</h3>
+            <p id="tiktok-count">0</p>
+          </article>
+        </div>
+        <div id="tiktok-list" class="media-grid"></div>
+      </section>
+
+      <section id="anuncios" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Sistema de anuncios</p>
+            <h2>Últimas novedades</h2>
+          </div>
+        </div>
+        <div id="announcements" class="announce-grid"></div>
+      </section>
+
+      <section class="section section-split">
+        <div class="card card-large">
+          <p class="eyebrow">Reclutamiento</p>
+          <h2>Facciones abiertas</h2>
+          <p>Cada facción tiene reclutamiento, formulario y revisión administrativa segura.</p>
+          <div class="feature-list">
+            <span>✅ PBA</span>
+            <span>✅ PDLC</span>
+            <span>✅ PFA</span>
+            <span>✅ BDLC</span>
+            <span>✅ SAME</span>
+            <span>✅ Seguridad Vial</span>
+          </div>
+        </div>
+        <div class="card card-large">
+          <p class="eyebrow">Liveries</p>
+          <h2>Galería de facciones</h2>
+          <p>Subí, organizá, editá y descargá liveries oficiales para cada facción del servidor.</p>
+          <div class="feature-list">
+            <span>Galerías</span>
+            <span>Buscador</span>
+            <span>Historial</span>
+            <span>Descargas</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="staff" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Staff</p>
+            <h2>Equipo de administración</h2>
+          </div>
+        </div>
+        <div id="staff-list" class="staff-grid"></div>
+      </section>
+
+      <section id="faq" class="section section-dark">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">FAQ</p>
+            <h2>Preguntas frecuentes</h2>
+          </div>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h3>¿Cómo ingreso?</h3>
+            <p>Uní tu cuenta Discord, lee el reglamento y completá el formulario de reclutamiento.</p>
+          </div>
+          <div class="faq-card">
+            <h3>¿Qué pasa si hay un direct?</h3>
+            <p>El banner se activa automáticamente y podrás entrar al live desde esta web.</p>
+          </div>
+          <div class="faq-card">
+            <h3>¿Cómo consigo VIP?</h3>
+            <p>Consulta sección de donaciones para ver packs, beneficios y métodos de pago.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Servidor RP Oficial · GTA RP Argentina · Diseño premium gaming</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
